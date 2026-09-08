@@ -4,6 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.104"
+async-trait = "0.1.92"
+chrono = "0.4.45"
+clap = "4.6.6"
+thiserror = "2.0.20"
+tokio = { version = "1.53.1", features = ["full", "tracing"] }
+uuid = "1.26.0"
 
 
 
